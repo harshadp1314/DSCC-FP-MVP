@@ -1,3 +1,2 @@
-# Airline Passenger Satisfaction 
+# Financial Planet (FP) 
 
-This project analyzes an airline passenger satisfaction survey dataset to determine the factors highly correlated with passenger satisfaction or dissatisfaction. The Minimum Viable Product (MVP) aims to develop a preliminary model that can predict passenger satisfaction based on the available dataset. By exploring the dataset and employing statistical techniques and machine learning algorithms, the MVP seeks to identify the key drivers of passenger satisfaction and build a predictive model that can assist airlines in improving their services and enhancing customer satisfaction. The MVP is a foundation for further analyzing and developing a robust and accurate predictive model.
