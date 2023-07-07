@@ -3,6 +3,7 @@ import pandas as pd
 from DSCC_FP_MVP_Storage import store_df_into_s3
 from DSCC_FP_MVP_StatisticalAnalysis import statistical_data
 from DSCC_FP_MVP_Visualization import visualize_data, candle_stick_graph
+# from DSSC_FC_MVP_InteractiveVisualization import visualization
 
 apple = 'aapl'
 samsung = '005930.KS'
@@ -30,19 +31,21 @@ df_apple = fetch_stock_data(apple)
 df_samsung = fetch_stock_data(samsung)
 
 # Store the data in AWS S3
-store_df_into_s3(df_apple, 'apple_stock')
-store_df_into_s3(df_samsung, 'samsung_stock')
+# store_df_into_s3(df_apple, 'apple_stock')
+# store_df_into_s3(df_samsung, 'samsung_stock')
 
 # calculates stock data statistics and display as a dataframe.
-statistical_data(df_apple, apple)
-statistical_data(df_samsung, samsung)
+# statistical_data(df_apple, apple)
+# statistical_data(df_samsung, samsung)
 
-# Displays line graphs of each stock data with 'Open', 'Close' and 'Volume' data.
-visualize_data(df_apple, 'aapl')
-visualize_data(df_samsung, 'samsung')
+# # Displays line graphs of each stock data with 'Open', 'Close' and 'Volume' data.
+# visualize_data(df_apple, 'aapl')
+# visualize_data(df_samsung, 'samsung')
 
-# Displays candle stick pattern of the stock data using plotly.
-candle_stick_graph(df_apple, 'aapl')
-candle_stick_graph(df_samsung, 'samsung')
+# # Displays candle stick pattern of the stock data using plotly.
+# candle_stick_graph(df_apple, 'aapl')
+# candle_stick_graph(df_samsung, 'samsung')
+
+# visualization(df_apple, df_samsung)
 
 
