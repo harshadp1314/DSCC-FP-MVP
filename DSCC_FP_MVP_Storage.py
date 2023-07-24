@@ -1,5 +1,5 @@
 from io import StringIO
-#import boto3
+import boto3
 import json
 
 def store_df_into_s3(dataframe, file_name):
